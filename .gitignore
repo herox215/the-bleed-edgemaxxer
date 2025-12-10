@@ -1,4 +1,6 @@
 *.png
+!assets/Lightning Bolt_Fullart_test.png
+!assets/Lightning Bolt_Default_test.png
 *.jpg
 *.jpeg
 output/
