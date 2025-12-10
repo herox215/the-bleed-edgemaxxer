@@ -8,6 +8,7 @@ An application for generating bleed edges in custom Magic: The Gathering (MTG) c
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#testing)
 - [License](#license)
 
 ## Introduction
@@ -46,6 +47,16 @@ The `the-bleed-edgemaxxer` application is designed to help you generate bleed ed
 
 3. **Output:**
     - The processed images with bleed edges will be saved in the [output](http://_vscodecontentref_/2) directory.
+
+## Testing
+
+To run the test suite for bleed edge generation:
+
+```sh
+python -m unittest test_bleed_edge -v
+```
+
+This will run all tests and display verbose output showing which tests pass or fail.
 
 ## License
 
